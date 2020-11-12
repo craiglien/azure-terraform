@@ -1,0 +1,13 @@
+{
+  "accepted": true,
+  "id": "/subscriptions/73f35d19-0a37-4aa6-b5c9-01cc30ea41ba/providers/Microsoft.MarketplaceOrdering/offerTypes/Microsoft.MarketplaceOrdering/offertypes/publishers/paloaltonetworks/offers/vmseries1/plans/bundle2/agreements/current",
+  "licenseTextLink": "https://storelegalterms.blob.core.windows.net/legalterms/3E5ED_legalterms_PALOALTONETWORKS%253a24VMSERIES1%253a24BUNDLE2%253a24RU6JZYEIPPCGDVNPWCDL2A2U5AT24IKZMWINBNM7UBV5ZG4OMLGXSMZ2MGKQX5RZIEQ5UZKCZV5CAJCFCAFYOJPRSXP2WY46X3MLY4A.txt",
+  "name": "bundle2",
+  "plan": "bundle2",
+  "privacyPolicyLink": "https://www.paloaltonetworks.com/legal/privacy.html",
+  "product": "vmseries1",
+  "publisher": "paloaltonetworks",
+  "retrieveDatetime": "2020-11-10T17:40:56.1484364Z",
+  "signature": "VTOHJFPDJMM4RANFSUB6SSGQEP7IDQY4XU5R55H4GFMTEFPXLMSYWDN2AVW6ZR2W6DYGJ7CR3I7QIKVUEN6GRGOGZ2LUY25YLP6GSFA",
+  "type": "Microsoft.MarketplaceOrdering/offertypes"
+}
