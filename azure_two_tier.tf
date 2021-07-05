@@ -7,11 +7,12 @@ az vm image terms accept --urn paloaltonetworks:vmseries1:bundle2:latest
 */
 
 provider "azurerm" {
-  version = "=2.13.0"
   features {}
 }
 
-variable "git_log" {}
+variable "git_log" {
+         default = "default"
+}
 
 resource "azurerm_resource_group" "PAN_FW_RG" {
   name = var.resource_group_name
@@ -24,7 +25,7 @@ resource "azurerm_storage_account" "PAN_FW_STG_AC" {
   resource_group_name = azurerm_resource_group.PAN_FW_RG.name
   location = var.location
   account_replication_type = "LRS"
-  account_tier = "Standard" 
+  account_tier = "Standard"
 }
 
 resource "azurerm_public_ip" "PublicIP_0" {
